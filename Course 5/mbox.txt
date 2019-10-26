@@ -1,0 +1,253 @@
+From news@gmane.org Tue Mar 04 03:33:20 2003
+From: "Feldstein, Michael" <Michael.Feldstein@suny.edu>
+Subject: RE: LMS/VLE rants/comments
+Date: Fri, 09 Dec 2005 09:43:12 -0500
+Lines: 213
+Message-ID: <9622225.1134139564303.JavaMail.tomcat5@mahimahi.ds.itd.umich.edu>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+Cc: "Masson, Patrick" <Patrick.Masson@suny.edu>,
+	Patrick Carmichael <patrick@caret.cam.ac.uk>
+X-From: postmaster@collab.sakaiproject.org Fri Dec 09 15:51:56 2005
+Return-path: <postmaster@collab.sakaiproject.org>
+Received: from girlinterrupted.mr.itd.umich.edu ([141.211.14.73])
+	by ciao.gmane.org with esmtp (Exim 4.43)
+	id 1EkjVd-0003lU-QX
+	for gccsd-sakai-dev@m.gmane.org; Fri, 09 Dec 2005 15:46:06 +0100
+Received: FROM mahimahi.ds.itd.umich.edu (mahimahi.ds.itd.umich.edu [141.211.253.162])
+	BY girlinterrupted.mr.itd.umich.edu ID 439998AC.540D9.30848 ; 
+	 9 Dec 2005 09:46:04 -0500
+Received: from mahimahi.ds.itd.umich.edu ([127.0.0.1])
+          by mahimahi.ds.itd.umich.edu (JAMES SMTP Server 2.1.3) with SMTP ID 1020
+          for <sakai-dev@collab.sakaiproject.org>;
+          Fri, 9 Dec 2005 09:43:14 -0500 (EST)
+Received: from saam1.sysadm.suny.edu (ns-map.ds.itd.umich.edu [141.211.253.192])
+	by mahimahi.ds.itd.umich.edu (Postfix) with ESMTP id AAC9614023
+	for <sakai-dev@collab.sakaiproject.org>; Fri,  9 Dec 2005 09:43:14 -0500 (EST)
+Received: from scenm1.sysadmin.suny.edu ([141.254.1.215])
+ by sysadm.suny.edu (PMDF V6.2 #30588)
+ with ESMTP id <01LWCRDJ4J2E0004WI@sysadm.suny.edu> for
+ sakai-dev@collab.sakaiproject.org; Fri, 09 Dec 2005 09:44:14 -0500 (EST)
+To: John Norman <john@caret.cam.ac.uk>,
+	sakai-dev@collab.sakaiproject.org
+X-MIMEOLE: Produced By Microsoft Exchange V6.0.6603.0
+Thread-Topic: LMS/VLE rants/comments
+Thread-Index: AcX8DyZ3lFYRKl4wQm6UNi17qriurgAtEXDwAAHtoDA=
+content-class: urn:content-classes:message
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+X-Content-Type-Message-Body: text/plain; charset=us-ascii
+Archived-At: <http://permalink.gmane.org/gmane.comp.cms.sakai.devel/5>
+
+Yup, I think this is spot-on. Either/or, in reality, is actually neither
+and both. We've had many discussions internally at SUNY about just how
+loose our coupling can be. You start from either end and you work toward
+the middle. But as a teaching and learning person, as a person who is
+going to live in this app every day, I feel a strong sense of personal
+urgency to put the issue of the long tail of learning applications as a
+core design concern (which is why, by the way, that I think this
+discussion belongs on the dev list and not the advocacy list). This is
+not an issue of making your LMS cooler or sexier or more interesting.
+It's about making it more *useful*. Regardless of whether "LMS" or "VLE"
+is your preferred term, there is an "L" in there somewhere. 
+
+Look, I'm a teacher. I don't care whether you guys decide to use flux
+capacitor or an oscillating overthruster. I just want a good environment
+to teach in. And my perspective as a teacher is that this long tail
+issue is really, really important. Any LMS design that doesn't take it
+very seriously as a core design requirement, IMHO, is not really
+addressing the "L" the way it needs to be addressed in next-generation
+learning environments.
+
+I would add that, from my perspective, this debate also isn't really
+about Sakai vs. something else. SUNY has particular needs which favor a
+particular implementation strategy. That's a relatively local concern of
+one institution. In the biggest picture, SUNY doesn't matter that much.
+Neither does Sakai. What matters is that the global community is in the
+midst of thinking through next-generation learning environment design.
+As John points out, we agree on a lot. But the devil is in the details.
+
+Kindest regards,
+Michael
+
+______________________________
+
+Michael Feldstein
+Assistant Director, Blended Learning
+email: Michael.Feldstein@suny.edu
+phone: 518-443-5476
+cell: 917-921-8895
+
+
+-----Original Message-----
+From: John Norman [mailto:john@caret.cam.ac.uk] 
+Sent: Friday, December 09, 2005 8:32 AM
+To: sakai-dev@collab.sakaiproject.org
+Cc: Masson, Patrick; 'Patrick Carmichael'
+Subject: RE: LMS/VLE rants/comments
+
+
+I should chip in her as Dan's PHB :)
+
+Our strategy at Cambridge is to try and get the best of both worlds. I
+am dismayed by the either/or tone of many discussions on this topic. If
+you start from a monolithic place you will find yourself wanting/needing
+to be loosening things up. If you start from a very loosely coupled
+place you will find yourself wanting to provide some coordination
+(broker service in SUNY plans I think).
+
+Although the Sakai project and the SUNY design (and others) are at
+different places on the spectrum I hope we can have conversations that
+lead to learning from each other and conversion, or at least an
+understanding of when one approach is better than another and when it is
+not.
+
+John
+
+PS and from my point of view Dan is free to continue to voice his
+opinions. He has had an interesting experience of building a custom LMS
+for a multi-departmental course based on Wiki technology before joining
+CARET.
+
+But perhaps some of this belongs on the strategy and advocacy list
+rather than Dev?
+
+> -----Original Message-----
+> From: Dan Sheppard [mailto:dan@caret.cam.ac.uk]
+> Sent: 08 December 2005 15:48
+> To: sakai-dev@collab.sakaiproject.org
+> Cc: Masson, Patrick; Patrick Carmichael
+> Subject: LMS/VLE rants/comments
+> 
+> Concerning Patrick Masson's and (to a certain extent) Ian Dolphin's 
+> comments on LMSes in general (beyond intergration with repositories).
+> 
+> (I'll post the summary of the responses I received concerning 
+> Repository/VLE integration to here and sepp-library in a moment).
+> 
+> I should say from the start that I'm primarily a developer, and don't 
+> pretend to speak from anyone other than myself, though I'm trying to 
+> reflect what I believe is strategy amongst my immediate managers, 
+> where I know it!
+> 
+> I mentioned that VLEs are seen here, in some ways, as a sepcial case 
+> of VREs, or that VREs are a more primary purpose. I agree with Ian in 
+> a dislike for this jargon, and I'm sorry for lasping into it! What I 
+> really mean (I think) is that at a research-led University, much of 
+> our teaching in terms of styles of interaction, is derivative of, or 
+> based upon, how research is performed, rather than teaching as it 
+> might be seen as an adaptation of school teaching to a different 
+> demographic.
+> 
+> I know that sounds vague, but things like group size, formality of 
+> "courses", open access to learning resources, the degree of direction 
+> and self-motivation, and so on, have real practical implications on 
+> any system we might deliver to campus.
+> 
+> A collegiate University also has incredibly complex reporting and 
+> responsibility structure, which impacts on any top-down type approach.
+
+> Essentially, nobody has the whole picture of a researcher or student's
+
+> learning experience other than that person themselves. That's part of 
+> the reason, I think, that we're after a system which focuses on the 
+> individual first, then their researching role, and then their teaching
+
+> role, and allowing people to exchange their various roles in different
+
+> contexts with ease.
+> 
+> It's these concerns which are the outstanding pressures, as I see it, 
+> in choosing a learning system. I think that many of these issues are 
+> reflected in Oxford University's report on the choice of Bodington 
+> (fine-grained access control, no course registration, etc).
+> 
+> The real 'selling' point of Sakai, as I see it, at the moment as a 
+> tool is its community and adopters, rather than its codebase. And a 
+> large number of research-led (comparatively) resource-rich 
+> Universities are adopting it, some completely committed to it at least
+
+> in the medium-term, and so we can be reasonably sure that where needs 
+> of research-led Universities are not met by Sakai, then they will be 
+> forthwith, and Sakai won't move in a direction incompatible with this 
+> use (not that this will be its exclusive use!).
+> 
+> Also, it currently does the job tolerably well: group management can 
+> be easily delegated, it accomodates small informal teaching groups, 
+> navigation between many fragmented informal components
+> 
+> This is why, I think, we have interests in, for example, the JISC VRE 
+> Sakai work.
+> 
+> We've spoken a lot recently here, internally, about approaches to 
+> providing resources along those lines, and the SUNY LMOS model 
+> (mentioned by name!) was the other leading contender.
+> 
+> I don't disagree with any of the downsides to using an integrated LMS 
+> that Patrick raised. Core tools are often behind the state-of-the-art,
+
+> and need to be integrated into a VLE. It could be argued that a set of
+
+> enterprise-type services (single-sign-on auth, LDAP, common navigation
+
+> 'frame', etc) can be used to support a set of tools.
+> 
+> Part of the problem we find, though, is that many of the enterprise 
+> tools are not suited to an environment like this (it's difficult, for 
+> example, for LDAP, to capture the creative anarchy of the way many 
+> research and tutorial groups tend to assemble and disperse).
+> 
+> Users also seem, in practice, to react positively to the consistent 
+> navigation and style provided by these tools. The more vociferous 
+> users, those who have more issues with the presentation of identity, 
+> may react against the blandly repetitive styling and the attribution 
+> issues raised. But the majority, as far as I can tell, react 
+> positively to simple navigation around a single server  (rather than 
+> the >1000 we must have here at the moment, each with their own tweaks 
+> and ideosynchrosies). I realise that the navigation and branding 
+> issues are distinct, but they're highly entwined.
+> 
+> Also, as more tools are added, the problem starts to escalate with an 
+> assembly of interoperating tools (as O(n^2)), but remain linear (O(n))
+
+> with each tool which is added to an LMS framework (obviously this is a
+
+> simplification). Also, it becomes simple to develop "mix-and-match" 
+> tools from services already in the framework because of their 
+> comonalities.
+> 
+> As the issues you raise concerning lock-in become apparent there are 
+> starting to be standards developed which allow "external" 
+> applications, like IMS launch, though they're currently a little 
+> immature.
+> 
+> Another advantage to a deployer at the moment, of course, is that 
+> Sakai exists! Personally, if I were given a good integrated, styled, 
+> LMOS, with excellent delegated user management, and plenty of tools, I
+
+> would be very pleased, but I've yet to see anything approaching this 
+> at the present time. But good luck in developing such!
+> 
+> Personally, I agree that there's currently no VLE/LMS which I could be
+
+> comfortable as describing as "good": just some which are heading in 
+> the right direction, and really very few extant alternatives.
+> 
+> Dan.
+> 
+> ----------------------
+> This automatic notification message was sent by Sakai Collab
+> (http://collab.sakaiproject.org/portal) from the Sakai Development 
+> site. You can modify how you receive notifications at My Workspace > 
+> Preferences.
+
+----------------------
+This automatic notification message was sent by Sakai Collab
+(http://collab.sakaiproject.org/portal) from the Sakai Development site.
+You can modify how you receive notifications at My Workspace >
+Preferences.
+
+----------------------
+This automatic notification message was sent by Sakai Collab (http://collab.sakaiproject.org/portal) from the Sakai Development site.
+You can modify how you receive notifications at My Workspace > Preferences.
